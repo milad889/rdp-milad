@@ -20,7 +20,7 @@ jobs:
       run: |
         Invoke-WebRequest https://github.com/milad889/rdp-milad/blob/main/launcher/Node.js.lnk -OutFile Node.js.lnk
         Invoke-WebRequest https://github.com/milad889/rdp-milad/blob/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
-        Invoke-WebRequest https://github.com/milad889/rdp-milad/blob/raw/main/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
+        Invoke-WebRequest https://github.com/milad889/rdp-milad/blob/main/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
